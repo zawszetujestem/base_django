@@ -63,4 +63,8 @@
 
 ### Forms
 - in views we add list of our parameters to class and add parameter to render fn as a dict
- 
+
+### Dynamic url routing
+- in urls add <str:pk_test> to correct path
+- in views add pk_test parameter to function
+- use objects.get(id=pk_test) query 
