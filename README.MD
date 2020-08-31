@@ -30,3 +30,9 @@
 - put paths to functions in app/urls.py
     - path('exact url path', path to function),
 - need to use include fn in base urls.py
+
+## Templates and Inheritance
+- structure to create templates:
+    app package/templates/app_name/templates_name.html
+- in views.py change HTTPResponse into render(request, 'templates_path')
+
