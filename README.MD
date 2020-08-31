@@ -6,7 +6,9 @@
 - python manage.py runserver (in base project package) - run project
     - gives us two pages: 127.0.0.1:8000 and /admin
 - python manage.py startapp 'name' - create 'name' package with base file structure
-
+- python manage.py migrate - migrate any changes to db
+- python manage.py createsuperuser - create admin for app db
+- python manage.py makemigrations - set up db
 
 ## Base set up files for project
 - manage.py - never touch this file
@@ -40,3 +42,11 @@
 - go to settings.py
 - create STATICFILES_DIRS list
     - with os.path(BASE_DIR, 'static_folder_name')
+
+## Database configuration
+- in settings.py
+- need to migrate all changes to db
+- create class in models.py
+- makemigration
+- migrate
+- register model
