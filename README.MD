@@ -72,6 +72,7 @@
 - we should use names for all path to could change easy path without changing teplates 
 - adding urls links
     - {% url 'path_name' path_value %}
+- instance - if we want to dynamize form to update
 
 
 
