@@ -9,6 +9,7 @@
 - python manage.py migrate - migrate any changes to db
 - python manage.py createsuperuser - create admin for app db
 - python manage.py makemigrations - set up db
+- python manage.py shell - run shell for project
 
 ## Base set up files for project
 - manage.py - never touch this file
@@ -50,3 +51,16 @@
 - makemigration
 - migrate
 - register model
+- we can add items to tables using admin page
+- models.ForeignKey to connect data from different tables
+    - Parameters - From witch table, on_delete(what happend if your connected value will gone)=models.SET_NULL
+
+### QuerySet
+
+### Customer Managment App
+- python manage.py shell
+- many to many correlation - use __
+
+### Forms
+- in views we add list of our parameters to class and add parameter to render fn as a dict
+ 
