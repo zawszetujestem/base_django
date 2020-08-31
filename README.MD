@@ -67,4 +67,11 @@
 ### Dynamic url routing
 - in urls add <str:pk_test> to correct path
 - in views add pk_test parameter to function
-- use objects.get(id=pk_test) query 
+- use objects.get(id=pk_test) query
+- in urls we can add name parameter to path to create link in website to dynamic changes sites 
+- we should use names for all path to could change easy path without changing teplates 
+- adding urls links
+    - {% url 'path_name' path_value %}
+
+
+
