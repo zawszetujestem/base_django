@@ -36,3 +36,7 @@
     app package/templates/app_name/templates_name.html
 - in views.py change HTTPResponse into render(request, 'templates_path')
 
+## CSS configuration in Django
+- go to settings.py
+- create STATICFILES_DIRS list
+    - with os.path(BASE_DIR, 'static_folder_name')
